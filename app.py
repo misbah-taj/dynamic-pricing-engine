@@ -195,7 +195,7 @@ if st.button("🚀 Predict Optimal Price", use_container_width=True):
         ]
     })
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(6, 3))
 
     ax.bar(
         chart_data["Model"],
@@ -207,7 +207,7 @@ if st.button("🚀 Predict Optimal Price", use_container_width=True):
 
     plt.xticks(rotation=20)
 
-    st.pyplot(fig)
+    st.pyplot(fig, width=500)
 
 
 # -----------------------------
