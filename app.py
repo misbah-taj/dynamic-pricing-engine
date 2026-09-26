@@ -19,7 +19,7 @@ rl_model = joblib.load("reinforcement_learning/pricing_rl_model.pkl")
 
 st.set_page_config(
     page_title="Dynamic Pricing Engine",
-    page_icon="🛒",
+    page_icon="icon.png",
     layout="wide"
 )
 
